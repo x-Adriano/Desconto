@@ -1,5 +1,4 @@
 ## ENTRADAS
-
 Valor_compras = float (input ("\nValor total das compras: R$"))
 
 ##Processo
@@ -19,7 +18,6 @@ valor_pago = Valor_compras - desconto
 
 
 ##SAIDAS 
-
 print ("\n------Nota fiscal------")
 print (f"Desconto de {Valor_desconto}% aprovado")
 print (f"valor a ser pago: R$ {valor_pago:.2f}")
